@@ -18,7 +18,7 @@ App = {
             .then(response => {
                 console.log(response.data);
                 $('form').trigger('reset')
-                window.location.reload();
+                window.location.assign(window.location.href);
             })
             .catch(error => { console.log("errored", error); });
     }
