@@ -287,3 +287,8 @@ textarea:focus {
 .available-for-hire {
     color: #7EB942;
 }
+.date-period {
+    background-color: #FFB400;
+    color: #ffffff;
+    padding: 2px 2px;
+}

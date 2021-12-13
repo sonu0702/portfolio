@@ -22,7 +22,6 @@ App = {
             })
             .catch(error => { console.log("errored", error); });
     }
-
 }
 
 $(function () {
