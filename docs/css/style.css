@@ -206,6 +206,7 @@ body {
 .contact{
    min-height: 468px; 
    margin-top: 75px;
+   margin-bottom: 75px;
 }
 
 .contact-form {
