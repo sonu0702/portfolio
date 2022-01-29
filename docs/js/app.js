@@ -1,6 +1,15 @@
 App = {
+    ageCalculator: function() {
+        let birthYear = 1996
+        let age = new Date().getFullYear() -  birthYear
+        let element = document.getElementById("age")
+        element.innerText = age
+        console.log("age",age);
+    },
     init: function () {
         console.log('App.init');
+        App.ageCalculator()
+
     },
     sendMessage: function () {
         var fullName = $('#fullName').val();
